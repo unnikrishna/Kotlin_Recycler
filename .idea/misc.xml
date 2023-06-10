@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/KOTLIN/ListRecycler/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/KOTLIN/ListRecycler/app/src/main/res/layout/row_items.xml" value="0.136" />
+        <entry key="..\:/KOTLIN/ListRecycler/app/src/main/res/layout/linear_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/KOTLIN/ListRecycler/app/src/main/res/layout/liner_test.xml" value="0.22826086956521738" />
+        <entry key="..\:/KOTLIN/ListRecycler/app/src/main/res/layout/row_items.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -14,27 +14,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <LinearLayout
-            android:orientation="horizontal"
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="8dp"
+            android:orientation="vertical"
             >
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:layout_marginLeft="8dp"
-                >
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Given Name:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
                 <TextView
                     android:id="@+id/givenName"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:textSize="20sp"
+                    android:layout_weight="1"
                     android:singleLine="true"
                     android:layout_margin="10dp"
-                    android:text="GIVEN name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Family Name:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -42,9 +64,9 @@
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:textSize="20sp"
+                    android:layout_weight="1"
                     android:singleLine="true"
                     android:layout_margin="10dp"
-                    android:text="FAMILY name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
